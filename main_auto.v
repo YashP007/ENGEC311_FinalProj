@@ -13,21 +13,26 @@ module main_automated
         input  rx,               // serial data in
         output tx,               // serial data out
         
+        output wire [DBITS-1:0] read_data, // Data read from RX FIFO
+        
         output rx_full,          // indicates RX FIFO is full
         output rx_empty,         // indicates RX FIFO is empty
         output reg signal_debugging, // simple debug signal
+        
+        output reg read_flag,   // Flag to trigger reading from RX FIFO
+        output reg write_flag,  // Flag to trigger writing to TX FIFO
         
         output wire rx_done_tick,    // a word received from UART RX module
         output wire tx_done_tick     // data transmission complete from UART TX module
     );
 
     // Internal signals
-    wire [DBITS-1:0] read_data;    // Data read from RX FIFO
+    //wire [DBITS-1:0] read_data;    // Data read from RX FIFO
     reg  [DBITS-1:0] data_reg;     // register to hold processed data
     reg  [DBITS-1:0] write_data_reg; // Data to write to TX FIFO
 
-    reg read_flag;   // Flag to trigger reading from RX FIFO
-    reg write_flag;  // Flag to trigger writing to TX FIFO
+    //reg read_flag;   // Flag to trigger reading from RX FIFO
+    //reg write_flag;  // Flag to trigger writing to TX FIFO
 
     // Simple State Machine for Automatic Data Flow
     localparam IDLE       = 2'b00;
