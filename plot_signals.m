@@ -1,3 +1,10 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Class: ENGEC311: Final Project
+%%%% Group - 6 Digital Filtering Using HDL
+%%%% Finalized Date: 12/09/24
+%%%% Author: Yash Patel
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function plot_signals(t, original_signal, filtered_signal, Fs)
 % Plots the original and filtered signals in time and frequency domains
 % t: Time vector
