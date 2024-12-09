@@ -1,3 +1,9 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Class: ENGEC311: Final Project
+%%%% Group - 6 Digital Filtering Using HDL
+%%%% Finalized Date: 12/09/24
+%%%% Author: Yash Patel
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Main script to communicate with FPGA, send a signal, receive filtered data,
 % and plot results.
 
