@@ -1,3 +1,10 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Class: ENGEC311: Final Project
+%%%% Group - 6 Digital Filtering Using HDL
+%%%% Finalized Date: 12/09/24
+%%%% Author: Yash Patel
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function device = uart_init(COM_PORT, BAUD_RATE)
 % Initializes UART communication
 % COM_PORT: Serial port (e.g., 'COM3')
