@@ -1,3 +1,10 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Class: ENGEC311: Final Project
+%%%% Group - 6 Digital Filtering Using HDL
+%%%% Finalized Date: 12/09/24
+%%%% Author: Yash Patel
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function [t, signal] = generate_signal(Fs, T)
 % Generates a test signal as a combination of sinusoids
 % Fs: Sampling frequency
