@@ -1,6 +1,6 @@
 # Digitial Filtering and Convolutions using HDL Programming and Design
 ## ENGEC311: Final Project
-
+### Team members: Yash Patel, Heewon Park, Vanshika Chaddha, Alexander Bernhardt
 This README provides an in-depth explanation of the provided Verilog modules and how they work together to form a complete UART (Universal Asynchronous Receiver/Transmitter) system. The code and design approach are largely adapted from the reference book "FPGA Prototyping by Verilog Examples" (Xilinx Spartan-3 Version) by Dr. Pong P. Chu, and have been updated for use with an Artix-7 FPGA running at 100MHz.
 
 ---
