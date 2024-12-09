@@ -1,22 +1,9 @@
 `timescale 1ns / 1ps
 ////////////////////////////////////////////////////////////////////////////////////
-//// Company: 
-//// Engineer: 
-//// 
-//// Create Date: 11/21/2024 03:41:59 PM
-//// Design Name: 
-//// Module Name: Filter1
-//// Project Name: 
-//// Target Devices: 
-//// Tool Versions: 
-//// Description: 
-//// 
-//// Dependencies: 
-//// 
-//// Revision:
-//// Revision 0.01 - File Created
-//// Additional Comments:
-//// 
+//// Class: ENGEC311: Final Project
+//// Group - 6 Digital Filtering Using HDL
+//// Finalized Date: 12/09/24
+//// Author: Heewon Park
 ////////////////////////////////////////////////////////////////////////////////////
 
 
