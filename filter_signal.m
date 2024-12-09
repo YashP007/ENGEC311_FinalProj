@@ -1,3 +1,10 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Class: ENGEC311: Final Project
+%%%% Group - 6 Digital Filtering Using HDL
+%%%% Finalized Date: 12/09/24
+%%%% Author: Yash Patel
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function filtered_signal = filter_signal(original_signal, Fs)
 % Filters the input signal using an FIR filter in MATLAB
 % original_signal: The signal to be filtered
