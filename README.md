@@ -63,10 +63,13 @@ Serializes parallel data bytes for transmission via the `tx` line. Handles start
 ### 5. FIFO Modules (`fifo`)
 Provide buffering for received and transmitted data. Configurable depth and data width.
 
-### 6. FIR Filter Module (`FIR_Filter1`)
-Processes input data using a finite impulse response (FIR) filter with configurable coefficients. Applied in the `main_btn` configuration for filtering data.
+### 6. FIR Filter Module SOS (`FIR_Filter1`)
+Processes input data using a finite impulse response (FIR) filter with predetermined coefficients. Applied in the `main_btn` configuration for filtering data.
 
-### 7. Top-Level UART Module (`uart_top`)
+### 7. Convolution Filter (`convolution`)
+Processes input data using convolution with configurable coefficients. Applied in the `main_btn` configuration for filtering data.
+
+### 8. Top-Level UART Module (`uart_top`)
 Integrates all modules and manages the flow of data between RX/TX FIFOs, UART modules, and external interfaces.
 
 ---
