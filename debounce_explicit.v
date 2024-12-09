@@ -1,16 +1,9 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////////////
-// Reference book:
-// "FPGA Prototyping by Verilog Examples"
-// "Xilinx Spartan-3 Version"
-// Dr. Pong P. Chu
-// Wiley
-//
-// Adapted for Artix-7
-//
-// Comments:
-// - From examples in the book, its seems that db_level is used for switches
-//   while db_tick is used for buttons
+////////////////////////////////////////////////////////////////////////////////////
+//// Class: ENGEC311: Final Project
+//// Group - 6 Digital Filtering Using HDL
+//// Finalized Date: 12/09/24
+//// Author: Yash Patel
 //////////////////////////////////////////////////////////////////////////////////////////
 
 module debounce_explicit(
