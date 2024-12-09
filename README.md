@@ -13,7 +13,8 @@ This README provides an in-depth explanation of the provided Verilog modules and
 5. [Parameterization](#parameterization)
 6. [How Data Flows Through the System](#how-data-flows-through-the-system)
 7. [Usage and Customization](#usage-and-customization)
-8. [References](#references)
+8. [how to run the code](#How-to-run-the-code)
+9. [References](#references)
 
 ---
 
@@ -127,6 +128,18 @@ The system is highly configurable, allowing adaptation to various applications:
 - **To Adjust FIFO Depth**: Modify `FIFO_EXP` to change buffer size.
 - **To Change Baud Rate**: Update `BR_LIMIT` in the baud rate generator.
 
+---
+## How to run the code
+
+1. install all the files from the github
+2. open matlab and vivado
+3. run .m files on matlab and .v files on vivado
+4. make sure your FPGA is connected to the properly and check which COM# it is connected to
+5. code the corresponding COM# fpga is connected into the matlab file
+6. run the bitstream of the .v files
+7. then run the matlab file
+8. switch the _____ port up and down
+9. now you will be able to se data recieving and transmitting
 ---
 
 ## References
