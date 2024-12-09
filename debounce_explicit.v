@@ -7,7 +7,6 @@
 // Wiley
 //
 // Adapted for Artix-7
-// David J. Marion
 //
 // Comments:
 // - From examples in the book, its seems that db_level is used for switches
