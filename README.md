@@ -14,7 +14,8 @@ This README provides an in-depth explanation of the provided Verilog modules and
 6. [How Data Flows Through the System](#how-data-flows-through-the-system)
 7. [Usage and Customization](#usage-and-customization)
 8. [How to use this Code](#How-to-use-this-Code)
-9. [References](#references)
+9. [Video Demonstration](#Video-Demonstration-and-Code-Explanation)
+10. [References](#references)
 
 ---
 
