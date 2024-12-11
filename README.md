@@ -162,7 +162,7 @@ The system is highly configurable, allowing adaptation to various applications:
 ## References
 
 - Pong P. Chu, *FPGA Prototyping by Verilog Examples*.
-- Xilinx Artix-7 FPGA documentation.
+- Xilinx Artix-7 FPGA documentation. (Copy Provided within the `Constraints` Sub-Directory)
 - UART protocol standards and application notes.
 
 ---
