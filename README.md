@@ -138,22 +138,22 @@ The system is highly configurable, allowing adaptation to various applications:
 - Clone or download all the necessary project files from the GitHub repository.
 ### 2. Set Up Tools:
 - Open MATLAB for data handling and analysis.
-- Open Vivado for synthesizing, implementing, and programming the FPGA.
+- Open Vivado for FPGA programming.
 ### 3. Connect the FPGA:
 - Ensure your FPGA board is properly connected to your computer.
 - Identify the COM port (e.g., COM3, COM4, etc.) to which the FPGA is connected.
 ### 4. Configure MATLAB for Communication:
 - Locate the MATLAB file (main.m) and edit it.
-- Update the code to specify the correct COM port number where the FPGA is connected. For example:
+- Update the code to specify the correct COM port number where the FPGA is connected.
 ### 5. Load the Bitstream:
-- Use Vivado to load the bitstream (.bit) of the hardware design onto the FPGA. This includes the main hardware module (e.g., main.v).
+- Use Vivado to load the bitstream (.bit) of the hardware design onto the FPGA. This includes the main hardware module (main.v).
    - Open the Vivado project.
    - Generate the bitstream if it's not already generated.
    - Program the FPGA with the bitstream.
-### 6.Run the MATLAB Script:
-- Run the MATLAB script (main.m) to initiate data transmission and reception with the FPGA.
-### 7. Switch "Switch 1":
-- Toggle Switch 1 (switch it up and down) to ensure proper operation of the system.
+### 6.Put Switch to "high" to read in value
+- You can press the reset button to clear any past values.
+### 7. Run the MATLAB Script:
+-  Run the MATLAB script (main.m) to initiate data transmission and reception with the FPGA.
 ### 8. Verify Operation:
 - Observe the data being transmitted and received between MATLAB and the FPGA.
 
