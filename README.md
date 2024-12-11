@@ -32,16 +32,19 @@ This design includes three main configurations to demonstrate UART functionality
    - Operates based on pushbuttons (`read_uart_btn`, `write_uart_btn`).
    - Used for simple read and transmit functionality without data filtering.
    - Suitable for initial testing and debugging.
+   - This configuration is functional and has been verified that it can receive and send the same data back out. 
 
 2. **Automated UART (`main_automated`)**:
    - Automatically reads from the RX FIFO and transmits the data back via TX FIFO.
    - Requires no external control signals, ideal for continuous data communication.
    - Does not apply any data filtering.
+   - This module was implemented and tested but did not seem to receive or transmit any data, which is why we made the following module. 
 
 3. **Filtered Data Processing (`main_btn`)**:
    - Incorporates a FIR (Finite Impulse Response) filter for data processing.
    - A switch enables the filtering functionality, allowing input data to pass through an SOS filter before being transmitted.
    - Best suited for applications requiring signal filtering (e.g., noise reduction).
+   - The functionality of this module is shown in the video. 
    - **Submitted generated bitstream for this configuration**
 
 ---
