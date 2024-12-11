@@ -148,8 +148,8 @@ The system is highly configurable, allowing adaptation to various applications:
    - Program the FPGA with the bitstream.
 ### 6.Run the MATLAB Script:
 - Run the MATLAB script (main.m) to initiate data transmission and reception with the FPGA.
-### 7. Switch the U17 Port:
-- Toggle the U17 port (switch it up and down) to ensure proper operation of the system.
+### 7. Switch "Switch 1":
+- Toggle Switch 1 (switch it up and down) to ensure proper operation of the system.
 ### 8. Verify Operation:
 - Observe the data being transmitted and received between MATLAB and the FPGA.
 
