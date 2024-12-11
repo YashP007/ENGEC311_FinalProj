@@ -72,10 +72,10 @@ Provide buffering for received and transmitted data. Configurable depth and data
 Processes input data using a finite impulse response (FIR) filter with predetermined coefficients. Applied in the `main_btn` configuration for filtering data.
 
 ### 7. Convolution Filter (`convolution`)
-Processes input data using convolution with configurable coefficients. Applied in the `main_btn` configuration for filtering data.
+Processes input data using convolution with configurable coefficients. This module is currently not linked to any of the main modules, but can easily be configured to. Future work involved integrating this module and the SOS FIR filter module into one main module with MUX and selection lines to select between SOS and Convolution. 
 
 ### 8. Top-Level UART Module (`uart_top`)
-Integrates all modules and manages the flow of data between RX/TX FIFOs, UART modules, and external interfaces.
+Integrates all modules and manages the flow of data between RX/TX FIFOs, UART modules, and external interfaces. There are three configurations of this main module each performing a different operation as shown above. 
 
 ---
 
