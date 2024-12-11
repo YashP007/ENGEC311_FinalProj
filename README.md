@@ -158,7 +158,7 @@ The system is highly configurable, allowing adaptation to various applications:
 -  Run the MATLAB script (main.m) to initiate data transmission and reception with the FPGA.
 ### 8. Verify Operation:
 - Now, to push values out one by one, toggle the switch up and down. Allows new data to be pushed into the RX FIFO, resulting in data being pushed out.
-- As data is pushed out it is sent through the filtering module, and pushed into the TX FIFO. Overtime, as new values are pushed into the TX FIFO data will be transmitted back to MATALB. 
+- As data is pushed out it is sent through the filtering module, and pushed into the TX FIFO. Overtime, as new values are pushed into the TX FIFO data will be transmitted back to MATLAB. 
 - Observe the data being transmitted and received between MATLAB and the FPGA.
 
 ---
