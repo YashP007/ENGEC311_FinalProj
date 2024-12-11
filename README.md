@@ -129,17 +129,41 @@ The system is highly configurable, allowing adaptation to various applications:
 - **To Change Baud Rate**: Update `BR_LIMIT` in the baud rate generator.
 
 ---
-## How to run the code
+## How to Run the Project
+Install Required Files:
 
-1. install all the files from the github
-2. open matlab and vivado
-3. run .m files on matlab and .v files on vivado
-4. make sure your FPGA is connected to the properly and check which COM# it is connected to
-5. code the corresponding COM# fpga is connected into the matlab file
-6. run the bitstream of the .v files
-7. then run the matlab file
-8. switch the _____ port up and down
-9. now you will be able to se data recieving and transmitting
+Clone or download all the necessary project files from the GitHub repository.
+Set Up Tools:
+
+Open MATLAB for data handling and analysis.
+Open Vivado for synthesizing, implementing, and programming the FPGA.
+Connect the FPGA:
+
+Ensure your FPGA board is properly connected to your computer.
+Identify the COM port (e.g., COM3, COM4, etc.) to which the FPGA is connected.
+Configure MATLAB for Communication:
+
+Locate the MATLAB file (e.g., main.m) and edit it.
+Update the code to specify the correct COM port number where the FPGA is connected. For example:
+matlab
+Copy code
+s = serial('COM3'); % Replace COM3 with your FPGA's COM port number
+Load the Bitstream:
+
+Use Vivado to load the bitstream (.bit) of the hardware design onto the FPGA. This includes the main hardware module (e.g., main.v).
+Open the Vivado project.
+Generate the bitstream if it's not already generated.
+Program the FPGA with the bitstream.
+Run the MATLAB Script:
+
+Run the MATLAB script (main.m) to initiate data transmission and reception with the FPGA.
+Switch the U17 Port:
+
+Toggle the U17 port (switch it up and down) to ensure proper operation of the system.
+Verify Operation:
+
+Observe the data being transmitted and received between MATLAB and the FPGA.
+
 ---
 
 ## References
