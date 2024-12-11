@@ -13,7 +13,7 @@ This README provides an in-depth explanation of the provided Verilog modules and
 5. [Parameterization](#parameterization)
 6. [How Data Flows Through the System](#how-data-flows-through-the-system)
 7. [Usage and Customization](#usage-and-customization)
-8. [how to run the code](#How-to-run-the-code)
+8. [How to use this Code](#How-to-use-this-Code)
 9. [References](#references)
 
 ---
@@ -133,7 +133,7 @@ The system is highly configurable, allowing adaptation to various applications:
 - **To Change Baud Rate**: Update `BR_LIMIT` in the baud rate generator.
 
 ---
-## How to Run the Project
+## How to use this Code
 ### 1. Install Required Files:
 - Clone or download all the necessary project files from the GitHub repository.
 ### 2. Set Up Tools:
@@ -145,17 +145,24 @@ The system is highly configurable, allowing adaptation to various applications:
 ### 4. Configure MATLAB for Communication:
 - Locate the MATLAB file (main.m) and edit it.
 - Update the code to specify the correct COM port number where the FPGA is connected.
+- If it is not working for some reason, ensure you only have one communication port open with the device. 
 ### 5. Load the Bitstream:
 - Use Vivado to load the bitstream (.bit) of the hardware design onto the FPGA. This includes the main hardware module (main.v).
    - Open the Vivado project.
    - Generate the bitstream if it's not already generated.
    - Program the FPGA with the bitstream.
-### 6.Put Switch to "high" to read in value
-- You can press the reset button to clear any past values.
+### 6. Put Switch (Switch 1) to "high" to enable reading
+- Additionally, you can press the reset button to clear any past values.
 ### 7. Run the MATLAB Script:
 -  Run the MATLAB script (main.m) to initiate data transmission and reception with the FPGA.
 ### 8. Verify Operation:
+- Now, to push values out one by one, toggle the switch up and down. Allows new data to be pushed into the RX FIFO, resulting in data being pushed out.
+- As data is pushed out it is sent through the filtering module, and pushed into the TX FIFO. Overtime, as new values are pushed into the TX FIFO data will be transmitted back to MATALB. 
 - Observe the data being transmitted and received between MATLAB and the FPGA.
+
+---
+## Video Demonstration and Code Explanation
+Please find our linked video demonstration and explanation of our modules and code here: [Link]
 
 ---
 
