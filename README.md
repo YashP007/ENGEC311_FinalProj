@@ -42,6 +42,7 @@ This design includes three main configurations to demonstrate UART functionality
    - Incorporates a FIR (Finite Impulse Response) filter for data processing.
    - A switch enables the filtering functionality, allowing input data to pass through an SOS filter before being transmitted.
    - Best suited for applications requiring signal filtering (e.g., noise reduction).
+   - **Submitted generated bitstream for this configuration**
 
 ---
 
