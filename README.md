@@ -163,7 +163,7 @@ The system is highly configurable, allowing adaptation to various applications:
 
 ---
 ## Video Demonstration and Code Explanation
-Please find our linked video demonstration and explanation of our modules and code here: [https://drive.google.com/file/d/1k5ezgEhREktMXlYjHHgzApF3g4-xmtCg/view?usp=sharing]
+Please find our linked video demonstration and explanation of our modules and code here: [https://www.youtube.com/watch?v=HfgJYeoYSQQ]
 
 ---
 
